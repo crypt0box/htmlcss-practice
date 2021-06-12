@@ -1,0 +1,49 @@
+.container {
+  width: 800px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+header {
+  background-color: #fff1ac;
+  height: 120px;
+  margin-bottom: 5px;
+}
+
+nav {
+  background-color: #f9bcdd;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+main {
+  height: 300px;
+  margin-bottom: 5px;
+}
+
+.news1, .news2 {
+  background-color: #d5a4cf;
+  width: 390px;
+}
+
+.news1 {
+  height: 300px;
+  float: left;
+}
+
+.news1 > p {
+  font-size: 16px;
+  color: blue;
+}
+
+.news2 {
+  height: 300px;
+  float: right;
+}
+
+footer {
+  background-color: #ff6768;
+  height: 200px;
+}
